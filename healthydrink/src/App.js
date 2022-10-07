@@ -103,7 +103,7 @@ const App = () => {
                 </select>
               </div>
 
-              <div className="mt-5 flex gap-10 md:gap-20 items-center ">
+              <div className="mt-5 flex gap-10 md:gap-10 items-center ">
               {show && <p className="text-base md:text-xl font-medium">Number of Standard Drinks</p>}
               {show && <p className="text-base md:text-2xl ">{ result }</p>}
               </div>
