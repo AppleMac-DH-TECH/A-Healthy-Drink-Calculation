@@ -20,7 +20,7 @@ const App = () => {
       setResult("🥃🥃");
     } else if (gender == 'f' && goal == 'r' && other == 'n') {
       setResult("🥃🥃🥃🥃");
-    } else if (other == 'y' || gender || goal) {
+    } else if (other == 'y' && !gender && !goal || goal || gender) {
       setResult("🚫");
     } else { 
       
